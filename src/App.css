@@ -1,36 +1,11 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -39,4 +14,91 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+background-image: url(./assets/background.jpg);
+background-size: fill;
+background-color: #000;
+}
+
+nav {
+  /* background-color: #B399A2; */
+  border-radius: 10px;
+  /* border: 4px dashed #253237; */
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: rgb(10, 172, 194);
+  /* background-color: rgba(37, 50, 55, .70); */
+  display: inline;
+  font-family: 'lucida handwriting',sans-serif;
+  border-radius: 10px;
+  text-shadow: #fff 2px 2px 4px;
+}
+
+ul {
+  list-style: none;
+  /* color: #b9e8fa; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #b3eafb;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+header {
+  background-color: rgb(2, 7, 18, .60);
+  border-radius: 10px;
+  /* border-bottom: 2px solid #3DDFF5; */
+ 
+}
+
+.nav-tabs {
+  padding: 0;
+}
+
+.nav-link-active {
+  color: aqua;
+}
+
+h2 {
+  /* color: #0F3077; */
+  float: left;
+  border-right: #fff 2px solid;
+  font-size: 2.5rem;
+  color: #0A245C;
+
+}
+
+.about-me {
+  border-top: 3px white solid;
+  background-color: rgb(255, 255, 255, .70);
+  border-radius: 10px;
+  width: 80%;
+}
+
+img{
+  width: 7rem;
+  border-radius: 100px;
+  border: 2px black solid;
+}
+.footer {
+  background-color: aqua;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
 }
