@@ -3,13 +3,24 @@
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
-  justify-content: center;
-  display:flex;
+  /* justify-content: center; */
+  /* display:flex; */
+  /* flex-wrap: wrap; */
+}
+
+.main-content {
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-  padding: 2em;
+  text-align: center;
+  /* border: 2px solid black; */
+  margin: 10px 20px;
+  height: 300px;
+  background-color:#11B9D0 ;
+  border-radius: 10px;
 }
 
 .read-the-docs {
@@ -89,7 +100,7 @@ h2 {
   width: 80%;
 }
 
-img{
+.avatar{
   width: 7rem;
   border-radius: 100px;
   border: 2px black solid;
@@ -101,4 +112,27 @@ img{
    bottom:0px;
    height:40px;
    width:100%;
+}
+
+.portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color:#0A245C;
+}
+
+.img :hover {
+  box-shadow:  #8EF6F6 2px 2px 20px;
+}
+
+.project-img {
+  height: 13rem;
+}
+
+h3 {
+  font-family: 'lucida handwriting',sans-serif;
 }
