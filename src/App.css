@@ -107,9 +107,6 @@ h2 {
 }
 .footer {
   background-color: aqua;
-  position:fixed;
-   left:0px;
-   bottom:0px;
    height:40px;
    width:100%;
 }
@@ -135,6 +132,8 @@ a {
 
 h3 {
   font-family: 'lucida handwriting',sans-serif;
+  color: #8EF6F6;
+  font-size: 2rem;
 }
 
 #contact-form {
@@ -193,4 +192,23 @@ button:hover {
 
 .invalid-email-message {
   color: red;
+}
+
+#resume-page-section {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+h4 {
+  color: #0A245C;
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+
+#resume {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: #b3eafb;
+  font-size: 2rem;
+  text-decoration: underline 2px #b3eafb;
 }
